@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch2.scope;
+package com.heasy.spring4.ch2.scope;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * 创建配置文件
  */
 @Configuration
-@ComponentScan("com.heasy.highlight_spring4.ch2.scope")
+@ComponentScan("com.heasy.spring4.ch2.scope")
 public class ScopeConfig {
 }

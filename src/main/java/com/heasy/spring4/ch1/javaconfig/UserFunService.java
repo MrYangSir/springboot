@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch1.javaconfig;
+package com.heasy.spring4.ch1.javaconfig;
 
 /**
  * Created by heasy on 2017/5/6.

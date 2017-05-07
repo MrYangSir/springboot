@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch1.di;
+package com.heasy.spring4.ch1.di;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

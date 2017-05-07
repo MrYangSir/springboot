@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch1.aop;
+package com.heasy.spring4.ch1.aop;
 
 import java.lang.annotation.*;
 

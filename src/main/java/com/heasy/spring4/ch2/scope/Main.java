@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch2.scope;
+package com.heasy.spring4.ch2.scope;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

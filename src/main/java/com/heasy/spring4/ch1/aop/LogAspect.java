@@ -1,4 +1,4 @@
-package com.heasy.highlight_spring4.ch1.aop;
+package com.heasy.spring4.ch1.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 @Aspect//声明一个切面
 @Component//让切面成为spring容器管理的bean
 public class LogAspect {
-    @Pointcut("@annotation(com.heasy.highlight_spring4.ch1.aop.Action)")//声明切点
+    @Pointcut("@annotation(com.heasy.spring4.ch1.aop.Action)")//声明切点
     public void annotationPointCut() {
     }
 
@@ -30,7 +30,7 @@ public class LogAspect {
 
     }
 
-    @Before("execution(* com.heasy.highlight_spring4.ch1.aop.DemoMethonService.*(..))")//声明一个建言，直接使用拦截器规则
+    @Before("execution(* com.heasy.spring4.ch1.aop.DemoMethonService.*(..))")//声明一个建言，直接使用拦截器规则
     public void before(JoinPoint joinPoint) {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();
