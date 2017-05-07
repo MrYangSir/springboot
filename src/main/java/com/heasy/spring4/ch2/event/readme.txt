@@ -1,0 +1,5 @@
+spring event 为bean 之间的消息通信提供支持，当一个bean处理完一个任务之后，希望另一个bean知道并做相应的处理
+spring事件需要遵循的流程
+1、自定义事件，继承applicationEvent
+2、定义事件监听器，实现applicationListener
+3、使用容器发布事件
