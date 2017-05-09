@@ -1,0 +1,9 @@
+spring Aware
+通过spring容器加载资源文件
+
+BeanNameAware 获得容器中的bean名称
+BeanFactoryAware 获取当前工厂，调用容器中的服务
+ApplicationContextAware* 当前的application context 调用容器中的服务
+MessageSourceAware 获取message source 获取文本信息
+ApplicationEventPublisherAAware 应用事件发不起
+ResourceLoaderAware 获取资源加载器，可以获取外部资源文件
