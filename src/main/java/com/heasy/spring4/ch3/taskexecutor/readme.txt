@@ -1,0 +1,4 @@
+多线程
+taskexecutor
+可以实现一个线程池的taskexecutor
+@EnableAsync 启用异步支持
